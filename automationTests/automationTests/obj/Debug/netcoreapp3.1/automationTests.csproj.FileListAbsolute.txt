@@ -1,0 +1,9 @@
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/automationTests.deps.json
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/automationTests.runtimeconfig.json
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/automationTests.runtimeconfig.dev.json
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/automationTests.dll
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/automationTests.pdb
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.AssemblyInfoInputs.cache
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.AssemblyInfo.cs
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.dll
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.pdb
