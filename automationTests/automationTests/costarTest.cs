@@ -52,7 +52,7 @@ namespace automationTests
         {
             //var options = new ChromeOptions();
             //options.AddArgument("no-sandbox");
-            driver = new ChromeDriver("/Users/david.richards/projects/QuickAutomationRepo/QuickAutomationRepo/");
+            driver = new ChromeDriver("/Users/david.richards/Documents/automationTests/automationTests/");
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = System.TimeSpan.FromSeconds(10);
         }
