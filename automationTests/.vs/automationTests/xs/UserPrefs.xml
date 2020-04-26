@@ -1,25 +1,22 @@
 ﻿<Properties StartupConfiguration="{71AF51CB-48EC-448A-9F5C-D504BABF3AAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="automationTests/costarTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="automationTests/abwTest.cs">
     <Files>
-      <File FileName="automationTests/costarTest.cs" Line="69" Column="67" />
+      <File FileName="automationTests/costarTest.cs" Line="68" Column="84" />
+      <File FileName="automationTests/abwTest.cs" Line="71" Column="62" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="automationTests" expanded="True">
             <Node name="automationTests" expanded="True">
-              <Node name="costarTest.cs" selected="True" />
+              <Node name="abwTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="davidsSecondSolution" expanded="True" selected="True">
-            <Node name="davidsSecondProject" expanded="True">
-              <Node name="davidsSecondProject" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="automationTests" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
