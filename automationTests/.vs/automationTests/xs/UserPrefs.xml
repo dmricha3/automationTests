@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="automationTests/abwTest.cs">
     <Files>
       <File FileName="automationTests/costarTest.cs" Line="68" Column="84" />
-      <File FileName="automationTests/abwTest.cs" Line="71" Column="62" />
+      <File FileName="automationTests/abwTest.cs" Line="28" Column="29" />
+      <File FileName="automationTests/merTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,16 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="automationTests" expanded="True" selected="True" />
+          <Node name="automationTests" expanded="True">
+            <Node name="automationTests" expanded="True">
+              <Node name="automationTests" expanded="True">
+                <Node name="abwTest" expanded="True">
+                  <Node name="abw" selected="True" />
+                </Node>
+                <Node name="costarTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
