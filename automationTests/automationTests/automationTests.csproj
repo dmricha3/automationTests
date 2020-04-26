@@ -17,5 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Program.cs" />
+    <Compile Remove="Main.cs" />
+    <Compile Remove="Main.cs" />
   </ItemGroup>
 </Project>

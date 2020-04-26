@@ -87,8 +87,11 @@
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.csproj.CoreCompileInputs.cache
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.AssemblyInfoInputs.cache
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.AssemblyInfo.cs
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.csproj.CopyComplete
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.dll
 /Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.pdb
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.genruntimeconfig.cache
+/Users/david.richards/Documents/GitHub/automationTests/automationTests/automationTests/obj/Debug/netcoreapp3.1/automationTests.csprojAssemblyReference.cache

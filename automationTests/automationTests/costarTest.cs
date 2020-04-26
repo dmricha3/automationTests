@@ -52,26 +52,27 @@ namespace automationTests
         {
             //var options = new ChromeOptions();
             //options.AddArgument("no-sandbox");
-            driver = new ChromeDriver("/Users/david.richards/Documents/automationTests/automationTests/");
+            driver = new ChromeDriver("/Users/david.richards/projects/QuickAutomationRepo/QuickAutomationRepo/");
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = System.TimeSpan.FromSeconds(10);
         }
         [Test]
         //This test will be to ensure that the "Request a Demo" button is working properly.
-        public void Amazon()
+        public void costar()
         {
             //This will open the site we are going to be testing
-            driver.Url = "https://www.amazon.com";
+            driver.Url = "https://www.costar.com";
 
-            //This will find the "About Us" section and click it and wait for the "Request a Demo
+            //This will find the "Contact Us" section and click it and wait for the "Request a Demo
             //button to open in a new tab.
-            driver.FindElement(By.XPath("(//*[@class='nav-icon nav-arrow'])")).Click();
-            WaitUntilElementPresent(By.XPath("//*[@class='a-spacing-none ya-card__heading--rich a-text-normal']"));
+            driver.FindElement(By.XPath("(//*[@class='NavBarMenu_menu-labels'])[3]")).Click();
+            driver.SwitchTo().Window(driver.WindowHandles.Last());
+            WaitUntilElementPresent(By.XPath("//*[@class='visible-sm visible-lg visible-xs demoSubmitBtn']"));
 
             //This will click the "Request a Demo" button and wait for it to load the new page and
             //wait for the inormation submit button to be present.
-            driver.FindElement(By.XPath("//*[@class='a-spacing-none ya-card__heading--rich a-text-normal']")).Click();
-            WaitUntilElementPresent(By.XPath("//*[@class='a-button-input']"));
+            driver.FindElement(By.XPath("//*[@value='Request a Demo']")).Click();
+            WaitUntilElementPresent(By.XPath("//*[@class='demoSubmitBtn']"));
         }
         [OneTimeTearDown]
         public void End()
