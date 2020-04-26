@@ -69,11 +69,11 @@ namespace automationTests
 
             //This will will click an item and wait for a pop up to add it to the cart.
             driver.FindElement(By.XPath("(//*[@class='styles_name__2yjyg'])")).Click();
-            WaitUntilElementPresent(By.XPath("(//*[@class='styles_btn__AAPf2 styles_btnAddItem__32UKv styles_block__3FOE_'])"));
+            WaitUntilElementPresent(By.XPath("(//*[@data-testid='AddToOrder'])"));
 
 
-            //This will click "Add to Order" to the selected item
-            driver.FindElement(By.XPath("(//*[@class='styles_btn__AAPf2 styles_btnAddItem__32UKv styles_block__3FOE_'])")).Click();
+            //This will click "Add to Order" to the selected item and wait for the "Checkout" button to be available.
+            driver.FindElement(By.XPath("(//*[@data-testid='AddToOrder'])")).Click();
             WaitUntilElementPresent(By.XPath("//*[@class='styles_btnWrapper__pqLZj']"));
         }
         [OneTimeTearDown]
